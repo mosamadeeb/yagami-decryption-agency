@@ -1,0 +1,13 @@
+[package]
+name = "yagami-decryption-agency"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "3.2.21", features = ["derive"]}
+dialoguer = "0.10.2"
+indicatif = "0.17.1"
+spinners = "4.1.0"
+press-btn-continue = "0.1.1"
